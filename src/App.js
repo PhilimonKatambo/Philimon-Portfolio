@@ -27,7 +27,7 @@ const AppBar = () => {
     <div id='appBar'>
       <div id='leftSide'>
         <div id='Logo'>
-          <img src='./Pics/logoEdt.jpg' id='logo'></img>
+          <img src='logoEdt.jpg' id='logo'></img>
         </div>
         <div id='name'>Philimon</div>
         <div id='career'>Developer</div>
@@ -82,7 +82,7 @@ const Name = () => {
 
       <div id="otherLinks">
         <div id='proMouse'>
-          <img src='./Pics/profile.jpg' id='proPic'></img>
+          <img src='./Pics/Profile.jpg' id='proPic'></img>
         </div>
         <ContactWays />
 

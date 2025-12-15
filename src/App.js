@@ -27,7 +27,7 @@ const AppBar = () => {
     <div id='appBar'>
       <div id='leftSide'>
         <div id='Logo'>
-          <img src='logoEdt.jpg' id='logo'></img>
+          <img src='./Pics/logoEdt.jpg' id='logo'></img>
         </div>
         <div id='name'>Philimon</div>
         <div id='career'>Developer</div>

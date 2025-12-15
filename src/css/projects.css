@@ -169,4 +169,15 @@ a {
         width: 80vw;
     }
 
+    #otherLinks{
+        margin: 0 auto;
+    }
+
+    #greeting{
+        gap: 5px;
+    }
+
+    #pcCont{
+        height: 200px;
+    }
 }

@@ -60,8 +60,10 @@ const Desktop = () => {
       ref={canvasRef}
       style={{
         width: '380px',
-        height: '320px',
+        height: '220px',
       }}
+
+      id='pcCont'
     />
   )
 }

@@ -113,7 +113,7 @@ const Wormhole = () => {
     <div
       ref={canvasRef}
       style={{
-        width: '100%',
+        width: '100vw',
         height: '100vh',
         position: 'relative'
       }}>

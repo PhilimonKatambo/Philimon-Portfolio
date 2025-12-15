@@ -339,7 +339,7 @@ const Contact = () => {
                     <input type='text' placeholder='Name'></input>
                     <input type='email' placeholder='Email'></input>
                     <textarea type='text' placeholder='Message'></textarea>
-                    <button id='send'>
+                    <button id='send' onClick={()=>alert("Can't send any message, try again later")}>
                         <div>Send</div>
                         <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
                     </button>

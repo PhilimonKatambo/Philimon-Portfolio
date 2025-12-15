@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faGoogle, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faArrowRight, faVoicemail, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons/faDownload';
+import FloatingButton from './float';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Wormhole />
       <Project />
       <Footer />
+      <FloatingButton />
     </div>
   );
 }

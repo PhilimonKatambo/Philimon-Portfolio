@@ -135,3 +135,54 @@
         gap: 20px;
     }
 }
+
+
+#glow3 {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    border: 0px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #08bb26;
+    background-color: #a2edad;
+    animation: glow3 0.5s infinite alternate;
+    z-index: 10000000;
+}
+
+.floating-button {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0px;
+    background: linear-gradient(to bottom, #5bf878, #08bb26);
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+.floating-button:hover {
+    opacity: 0.7;
+}
+
+.floating-button:active {
+    opacity: 0.4;
+}
+
+
+@keyframes glow3 {
+    0% {
+        padding: 5px;
+    }
+
+    100% {
+        padding: 10px;
+    }
+}

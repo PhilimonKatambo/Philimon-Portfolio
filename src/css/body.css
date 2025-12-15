@@ -1,0 +1,132 @@
+#greeting{
+    display: flex;
+    margin: 150px 0px 0px 100px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+#greetName{
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#bigName{
+    color: #915eff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#line{
+    width: 10px;
+    height: 350px;
+    background-color: #915eff;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 0 0 0px #915eff, 0 0 5px #915eff, 0 0 5px #915eff;
+    animation: glowPulse 2s infinite alternate;
+}
+
+#description{
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6f7c9e;
+}
+
+#proPic{
+  object-fit:cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #915eff, 0 0 5px #915eff, 0 0 5px #915eff;
+  animation: glowPulse 2s infinite alternate;
+}
+
+#proMouse{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#otherLinks{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#contactWays{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#wap{
+  border: 1px solid #6f7c9e;
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #915eff;
+  animation: glowPulse2 2s alternate infinite;
+}
+
+#wapLogo,#fbLogo,#googleLogo,#linkedInLogo,#gitLogo{
+  color: #6f7c9e;
+  margin-Right: 8;
+  font-size: 30px;
+}
+
+#getStarted{
+  background-color: #915eff;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1px 0px grey;
+  color: #050816;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#leftGreeting{
+  display: flex;
+  gap: 20px;
+}
+
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 20px #915eff;
+  }
+  100% {
+    box-shadow: 0 0 10px #915eff, 0 0 10px #915eff;
+  }
+}
+
+@keyframes glowPulse2 {
+  0%{
+    box-shadow: 0 0 2px #915eff;
+  }
+  100%{
+    box-shadow: 0 0 3px #915eff, 0 0 3px #915eff;
+  }
+}
+
+@media (max-width: 480px) {
+    #greeting{
+      margin: 150px 0px 0px 10px;
+    }
+    #otherLinks{
+      align-items: center;
+    }
+}

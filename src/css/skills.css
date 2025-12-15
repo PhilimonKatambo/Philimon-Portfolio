@@ -1,0 +1,137 @@
+#skillPage{
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    backdrop-filter: blur(20px);
+    color: #ffffff;
+}
+
+#Up{
+    z-index: 11;
+    display: flex;
+    height: fit-content;
+    padding: 0px 20px 0px 20px;
+    justify-content: space-between;
+    padding: 30px 40px 10px 40px;
+    
+}
+
+#intro,#otherDes{
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    box-shadow: 0 0 2px #915eff;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#fword{
+    font-size: 40px;
+    font-weight: bold;
+    color: #915eff;
+}
+
+#otherDes{
+    font-size: 16px;
+    font-weight: bold;
+    color: #A194AD;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 0px 10px 10px 20px;
+
+}
+
+#percent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    height: 55vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: #A194AD;
+}
+
+#python{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    box-shadow: 0 0 2px #915eff;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 20px;
+}
+
+#logo{
+    color: #915eff;
+    font-size: 30px;
+}
+
+#lang{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-left: 10px;
+    align-content: flex-end;
+}
+
+#progressContainer{
+    background-color:#A194AD;
+    width: 90%;
+    height: 5px;
+    border-radius: 20px;
+    display: flex;
+}
+
+#progress{
+    background: linear-gradient(to right, #915eff,#4836e1);
+    width: 80%;
+    border-radius: 20px;
+    animation: glowPulse3 5s alternate infinite;
+}
+
+#ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #915eff;
+}
+
+#number{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+@keyframes glowPulse3 {
+  0% {
+     background: linear-gradient(to right, #915eff,#4836e1);
+  }
+  100% {
+        background: linear-gradient(to right,#4836e1,#915eff);
+    }
+}
+
+
+@media (max-width: 480px) {
+    #skillPage{
+        height: fit-content;
+    }
+    
+    #Up{
+        flex-wrap: wrap;
+        height: fit-content;
+        gap: 20px;
+    }
+}

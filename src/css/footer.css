@@ -1,0 +1,22 @@
+#footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0px 20px 0px;
+}
+#inside{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#rights{
+    font-size: 16px;
+    font-weight: bold;
+    color: #A194AD;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

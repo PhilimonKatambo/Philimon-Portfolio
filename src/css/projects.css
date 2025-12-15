@@ -1,0 +1,161 @@
+#projectsPage {
+    background-color: #050816;
+    padding: 20px;
+    color: #eaf4f8;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#pageTitle {
+    color: #915eff;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#pageDes {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #A194AD;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 0px 10px 10px 20px;
+}
+
+#projectsTabb {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+#schoolHub,
+#MusicPlayerCard,
+#Embedded,
+#uhb {
+    width: 40%;
+    padding: 10px;
+    box-shadow: 0px 0px 50px 0px #030b2f;
+    gap: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#progTitle,
+#tool {
+    font-size: 16px;
+    font-weight: bold;
+    color: #915eff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 20px;
+}
+
+#progDes {
+    font-size: .8rem;
+    font-weight: 400;
+    color: #A194AD;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    max-height: 4.5em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+}
+
+#imgHub {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#imgHub1 {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+#Tools {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#toolUnIconed {
+    font-size: 16px;
+    font-weight: bold;
+    color: #A194AD;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 20px;
+}
+
+#grpTools {
+    display: flex;
+    gap: 10%;
+    font-size: 1.5rem;
+    color: #A194AD;
+    align-items: center;
+}
+
+#down {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#viewMore {
+    background-color: #915eff;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 1px 0px grey;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a{
+    color: #ffffff;
+}
+
+#access {
+    display: flex;
+    gap: 10px;
+}
+
+#bigWord {
+    color: #2f225d;
+}
+
+#smallWord {
+    color: #030b2f;
+}
+
+#okay {
+    background-color: #030b2f;
+    color: #eaf4f8;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    border: 0px;
+}
